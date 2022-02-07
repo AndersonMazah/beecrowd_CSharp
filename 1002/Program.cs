@@ -25,7 +25,6 @@ namespace _1002
             double raio = Math.Round(double.Parse(Console.ReadLine()), 2);
             double area = Math.Pow(raio, 2) * PI;
             System.Console.WriteLine($"A={area.ToString("0.0000")}");
-            // Console.WriteLine($"A={(PI * Math.Pow(raio, 2)).ToString("0.0000")}");
 
         }
     }
