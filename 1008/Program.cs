@@ -22,7 +22,14 @@ namespace _1008
                 com um espaço em branco antes e depois da igualdade. No caso do salário,
                 também deve haver um espaço em branco após o $.
             */
-            Console.WriteLine("Hello World!");
+            int numero = int.Parse(Console.ReadLine());
+            int nrHoras = int.Parse(Console.ReadLine());
+            double vlrHora = double.Parse(Console.ReadLine());
+
+            double salario = (nrHoras * vlrHora);
+            Console.WriteLine($"NUMBER = {numero}");
+            Console.WriteLine($"SALARY = U$ {salario.ToString("0.00")}");
+
         }
     }
 }
